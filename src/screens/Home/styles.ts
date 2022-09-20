@@ -9,7 +9,7 @@ export const styles = StyleSheet.create({
     width: 214,
     heightt: 120,
     marginTop: 74,
-    marginBottom: 48,
+    marginBottom: 16,
   },
   ContentList: {
     paddingLeft: 32,
