@@ -3,11 +3,11 @@ export const THEME = {
     BACKGROUND_900: '#121214',
     BACKGROUND_800: '#18181B',
 
-    TEXT: '#FFFFFF',
+    TEXT: '#F7DC6F',
 
-    CAPTION_500: '#71717A',
-    CAPTION_400: '#A1A1AA',
-    CAPTION_300: '#D4D4D8',
+    CAPTION_500: '##f59e0b',
+    CAPTION_400: '#fbbf24',
+    CAPTION_300: '#fdba74',
 
     SHAPE: '#2A2634',
 

@@ -28,8 +28,8 @@ export const styles = StyleSheet.create({
   },
 
   banner: {
-    width: 280,
-    height: 160,
+    width: 260,
+    height: 140,
     borderRadius: 8,
     borderColor: THEME.COLORS.CAPTION_500,
     borderWidth: 1,
