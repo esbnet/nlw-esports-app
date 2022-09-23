@@ -11,7 +11,7 @@ import { Background } from '../../components/Background';
 
 import { styles } from './styles';
 
-const API_URL = 'http://192.168.0.11:3333/games'
+const API_URL = 'http://192.168.43.98:3333/games'
 
 export function Home() {
   const [games, setGames] = useState<GameCardProps[]>([])
