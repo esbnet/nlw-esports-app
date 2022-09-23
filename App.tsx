@@ -12,6 +12,8 @@ import { Background } from './src/components/Background';
 import { Routes } from './src/routes';
 import { Loading } from './src/screens/Loading';
 
+import './src/services/notificationConfigs'
+
 export default function App() {
   const [fontsLoaded] = useFonts(
     {
