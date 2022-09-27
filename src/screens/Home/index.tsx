@@ -11,7 +11,9 @@ import { Background } from '../../components/Background';
 
 import { styles } from './styles';
 
-const API_URL = 'http://192.168.0.11:3333/games'
+import { } from 'react-native-dotenv'
+
+const API_URL = `${process.env.REACT_APP_API_URL}`;
 
 export function Home() {
   const [games, setGames] = useState<GameCardProps[]>([])
@@ -23,7 +25,7 @@ export function Home() {
   }
 
   useEffect(() => {
-    fetch(API_URL)
+    fetch(`${API_URL}/games`)
       .then(response => response.json())
       .then(data => setGames(data))
   }, [])
