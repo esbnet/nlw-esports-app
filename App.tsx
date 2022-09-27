@@ -18,7 +18,6 @@ import { Loading } from './src/screens/Loading';
 import './src/services/notificationConfigs'
 import { getPushNotificationToken } from './src/services/getPushNotificationToken';
 
-
 export default function App() {
 
   const [fontsLoaded] = useFonts(

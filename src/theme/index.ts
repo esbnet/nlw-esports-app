@@ -5,7 +5,7 @@ export const THEME = {
 
     TEXT: '#F7DC6F',
 
-    CAPTION_500: '##f59e0b',
+    CAPTION_500: '#f59e0b',
     CAPTION_400: '#fbbf24',
     CAPTION_300: '#fdba74',
 

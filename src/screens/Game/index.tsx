@@ -23,10 +23,12 @@ import logo from '../../assets/logo-nlw-esports.png'
 import { THEME } from '../../theme';
 import { styles } from './styles';
 
+const API_URL = `${process.env.REACT_APP_API_URL}`;
+
 export function Game() {
 
   const [duos, setDuos] = useState<DuoCardProps[]>([])
-  const [discordDuoSelected, setDiscordDuoSelected] = useState("NenoLord")
+  const [discordDuoSelected, setDiscordDuoSelected] = useState("")
 
   const route = useRoute();
   const game = route.params as GameParams;
@@ -37,13 +39,13 @@ export function Game() {
   }
 
   async function getDiscordUser(adsId: string) {
-    fetch(`http://192.168.43.98:3333/ads/${adsId}/discord`)
+    fetch(`${API_URL}/ads/${adsId}/discord`)
       .then(response => response.json())
       .then(data => setDiscordDuoSelected(data.discord))
   }
 
   useEffect(() => {
-    fetch(`http://192.168.43.98:3333/games/${game.id}/ads`)
+    fetch(`${API_URL}/games/${game.id}/ads`)
       .then(response => response.json())
       .then(data => setDuos(data))
   }, [])
