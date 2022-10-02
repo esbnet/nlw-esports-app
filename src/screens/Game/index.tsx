@@ -23,7 +23,7 @@ import logo from '../../assets/logo-nlw-esports.png'
 import { THEME } from '../../theme';
 import { styles } from './styles';
 
-const API_URL = `${process.env.REACT_APP_API_URL}`;
+const API_URL = process.env.REACT_APP_API_URL;
 
 export function Game() {
 
