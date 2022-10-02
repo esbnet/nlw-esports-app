@@ -13,16 +13,18 @@ import { styles } from './styles';
 
 import { } from 'react-native-dotenv'
 
-const API_URL = `${process.env.REACT_APP_API_URL}`;
+const API_URL = process.env.REACT_APP_API_URL;
 
 export function Home() {
   const [games, setGames] = useState<GameCardProps[]>([])
-
   const navigation = useNavigation();
+
 
   function handleOpenGame({ id, title, bannerUrl }: GameCardProps) {
     navigation.navigate('game', { id, title, bannerUrl });
   }
+
+  // console.log(API_URL)
 
   useEffect(() => {
     fetch(`${API_URL}/games`)
