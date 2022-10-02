@@ -19,17 +19,17 @@ It is an App to consume a Rest API [nlw-esports-server](https://github.com/esbne
 
 ## How it works:
 
-1. Select the game:
-   <img src="./src/assets/tela01.jpeg" alt="drawing" width="240"/>
+1. Select the game:<br/>
+   <img src="./src/assets/tela01.jpeg" alt="drawing" width="240"/><br/>
 
-2. Select the advertisement and click on button "Conectar"
-   <img src="./src/assets/tela02.jpeg" alt="drawing" width="240"/>
+2. Select the advertisement and click on button "Conectar"<br/>
+   <img src="./src/assets/tela02.jpeg" alt="drawing" width="240"/><br/>
 
-3. In the info, click on the discord code to copy it to the clipboard and search for it on Discord
-   <img src="./src/assets/tela03.jpeg" alt="drawing" width="240"/>
+3. In the info, click on the discord code to copy it to the clipboard and search for it on Discord<br/>
+   <img src="./src/assets/tela03.jpeg" alt="drawing" width="240"/><br/>
 
-4. Confirmation of copy to clipboard:
-   <img src="./src/assets/tela04.jpeg" alt="drawing" width="240"/>
+4. Confirmation of copy to clipboard:<br/>
+   <img src="./src/assets/tela04.jpeg" alt="drawing" width="240"/><br/>
 
 ## Installation
 
