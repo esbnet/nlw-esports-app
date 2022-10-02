@@ -2,7 +2,7 @@
 
 It is an App to consume a Rest API [nlw-esports-server](https://github.com/esbnet/nlw-esports-server). Its purpose is to locate players with advertisements for the games of interest to them.
 
-![Main](./src/assets/main.png)
+![Main](./src/assets/Main.png)
 
 ## Pré-requisites
 
